@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkThreeWithIfStatement", "HomeworkThreeWithIfStatement\HomeworkThreeWithIfStatement.csproj", "{4A399A35-3E8F-4936-81E5-F966FB1AA69A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreeWithIfStatement", "HomeworkThreeWithIfStatement\HomeworkThreeWithIfStatement.csproj", "{4A399A35-3E8F-4936-81E5-F966FB1AA69A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkThreeWithSwitchStatement", "HomeworkThreeWithSwitchStatement\HomeworkThreeWithSwitchStatement.csproj", "{65C0D977-26BA-42C9-BD1A-371D4E8BEC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreeWithSwitchStatement", "HomeworkThreeWithSwitchStatement\HomeworkThreeWithSwitchStatement.csproj", "{65C0D977-26BA-42C9-BD1A-371D4E8BEC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectedTax2022", "ProjectedTax2022\ProjectedTax2022.csproj", "{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{65C0D977-26BA-42C9-BD1A-371D4E8BEC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65C0D977-26BA-42C9-BD1A-371D4E8BEC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C0D977-26BA-42C9-BD1A-371D4E8BEC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
