@@ -20,25 +20,29 @@ switch (annualSalary)
 		annualTax = 30000 + (0.25 * (annualSalary - 400000));
 		break;
 	case > 800000 and <= 2000000:
-		annualTax = 130000 + (0.30 + (annualSalary - 800000));
+		annualTax = 130000 + (0.30 * (annualSalary - 800000));
 		break;
 	case > 2000000 and <= 8000000:
-		annualTax = 490000 + (0.32 + (annualSalary - 2000000));
+		annualTax = 490000 + (0.32 * (annualSalary - 2000000));
 		break;
 	case > 8000000:
-		annualTax = 2400000 + (0.35 + (annualSalary - 8000000));
+		annualTax = 2400000 + (0.35 * (annualSalary - 8000000));
 		break;
 	default:
 		Console.WriteLine("You are exempted to Tax Deduction.");
 		break;
 }
 
-if (double.IsNaN(annualSalary) == false)
+if (double.IsNaN(annualTax) == false)
 {
+	string semiMonthlyTax = (annualTax / 12 / 2).ToString("N");
+	string monthlyTax = (annualTax / 12).ToString("N");
+	string yearlyTax = annualTax.ToString("N");
+
 	Console.WriteLine("Your Projected Witholding Tax is as follows...");
-	Console.WriteLine($"For Semi-Monthly: {annualTax / 12 / 2}");
-	Console.WriteLine($"For Monthly     : {annualTax / 12}");
-	Console.WriteLine($"For Yearly      : {annualTax}");
+	Console.WriteLine($"For Semi-Monthly: {semiMonthlyTax}");
+	Console.WriteLine($"For Monthly     : {monthlyTax}");
+	Console.WriteLine($"For Yearly      : {yearlyTax}");
 }
 
 Console.ReadLine();
