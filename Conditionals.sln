@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreeWithIfStatemen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreeWithSwitchStatement", "HomeworkThreeWithSwitchStatement\HomeworkThreeWithSwitchStatement.csproj", "{65C0D977-26BA-42C9-BD1A-371D4E8BEC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectedTax2022", "ProjectedTax2022\ProjectedTax2022.csproj", "{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectedTax2022", "ProjectedTax2022\ProjectedTax2022.csproj", "{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonetizedLeave", "MonetizedLeave\MonetizedLeave.csproj", "{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
