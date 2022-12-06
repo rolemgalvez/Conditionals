@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkThreeWithSwitchStat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectedTax2022", "ProjectedTax2022\ProjectedTax2022.csproj", "{8E2CBA07-7FA1-4AC1-A64C-4FEB4CC94149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonetizedLeave", "MonetizedLeave\MonetizedLeave.csproj", "{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonetizedLeave", "MonetizedLeave\MonetizedLeave.csproj", "{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalCashAllowance", "MedicalCashAllowance\MedicalCashAllowance.csproj", "{109A2258-8C8D-4EAF-AACD-31E568F7ED1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6837A6F5-1EF1-4CB2-9A55-D9CE084C1F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109A2258-8C8D-4EAF-AACD-31E568F7ED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A2258-8C8D-4EAF-AACD-31E568F7ED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109A2258-8C8D-4EAF-AACD-31E568F7ED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109A2258-8C8D-4EAF-AACD-31E568F7ED1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
