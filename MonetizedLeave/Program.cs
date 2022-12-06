@@ -4,10 +4,12 @@ Console.WriteLine("---------------");
 Console.WriteLine();
 
 //Get user input
+//Part 1
 Console.Write("What type of an employee are you, private or government? ");
 string? employeeType = Console.ReadLine();
 double leaveCredit = double.NaN;
 
+//Part 2
 if (employeeType.ToLower() == "private")
 {
     Console.Write("How many unused Vacation Leave credits do you have? ");
@@ -16,7 +18,6 @@ else if (employeeType.ToLower() == "government")
 {
     Console.Write("How many monetized Vacation & Sick Leave credits do you have? ");
 }
-double.TryParse(Console.ReadLine(), out leaveCredit);
 
 //Process input
 bool acceptableEmployeeType = (employeeType.ToLower() == "private") || 
@@ -26,6 +27,7 @@ double nonTaxable = 10;
 
 if (acceptableEmployeeType && double.IsNaN(leaveCredit) == false)
 {
+    double.TryParse(Console.ReadLine(), out leaveCredit);
     switch (employeeType.ToLower())
     {
         case "private":
